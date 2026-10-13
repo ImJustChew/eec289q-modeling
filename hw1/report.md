@@ -179,3 +179,5 @@ From the error plots, we observe that both models show little improvement after 
 A possible explanation for the difference in performance lies in the optimization objectives of the two models. The perceptron only updates its weights when a sample is misclassified. Since our features are not linearly separable, the perceptron may continue updating its weights without significantly reducing the classification error. In contrast, linear regression uses gradient descent to minimize the Mean Squared Error (MSE), allowing it to approach a more stable solution.
 
 Ultimately, the limited improvement in both models is likely due to our chosen features, which do not provide sufficient information to clearly separate the three digits using linear decision boundaries. This suggests that feature selection plays a significant role in the performance of linear classifiers.
+
+**Code repository:** [https://github.com/ImJustChew/eec289q-modeling](https://github.com/ImJustChew/eec289q-modeling)
